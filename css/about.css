@@ -34,6 +34,12 @@
     display: flex;
     flex-direction: column;
 }
+.about_card:hover {
+    cursor: pointer;
+    transform: translateY(8px);
+    transition: all 0.5s;
+    box-shadow: 0 10px 88px rgba(151,165,193,0.3);
+}
 .about_card_icon {
     margin: 24px auto 12px 24px;
     height: 42px;

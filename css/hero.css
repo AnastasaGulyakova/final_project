@@ -28,6 +28,12 @@
     transition: all 0.5s;
     margin-bottom: 56px;
 }
+.hero_text_mobile__p {
+    display: none;
+}
+.hero_sign_up_mobile__btn {
+    display: none;
+}
 .hero_sign_up__btn {
     height: 64px;
     color: white;

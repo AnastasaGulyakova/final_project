@@ -80,3 +80,6 @@
 .selected_inst_page {
     opacity: 100%;
 }
+.inst_page__mobile {
+    display: none;
+}

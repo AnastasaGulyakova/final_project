@@ -77,3 +77,22 @@
 .about_loc_arrow_right {
     margin-left: 32px;
 }
+.location_pages {
+    display: flex;
+    flex-direction: row;
+    width: 56px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.location_page {
+    background-image: url('../icons/pages.svg');
+    width: 8px;
+    height: 8px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 50%;
+}
+.selected_location_page {
+    opacity: 100%;
+}

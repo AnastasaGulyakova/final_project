@@ -5,6 +5,9 @@
     text-align: center;
     margin-bottom: 48px;
 }
+.contacts_map__mobile {
+    display: none;
+}
 .contacts_form {
     position: absolute;
     z-index: 500;

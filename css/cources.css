@@ -5,6 +5,9 @@
     align-items: center;
     justify-content: center;
 }
+.big_wrapper_cources_mobile {
+    display: none;
+}
 .course_sliders {
     display: flex;
     flex-direction: row;
