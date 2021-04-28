@@ -241,11 +241,12 @@
         display: flex;
         flex-direction: column;
         margin-top: 48px;
-        gap: 32px;
+        gap: 0px;
     }
     .about_text {
         display: flex;
         flex-direction: column;
+        margin-bottom: 32px;
     }
     .about_text__p {
         font-size: 16px;
@@ -343,10 +344,12 @@
     }
     .big_wrapper_cources_mobile {
         display: block;
-        width: 100%;
+        width: calc(100% - 32px);
         font-family: var(--default__font);
     }
     .cources_scroll_mobile {
+        width: 100%;
+        margin: 0px auto;
         display: flex;
         flex-direction: row;
         overflow-x: scroll;
@@ -537,7 +540,7 @@
         opacity: 100%;
     }
     .price {
-        width: 100%;
+        width: calc(100% - 32px);
         margin: 48px 0 48px 0;
         display: flex;
         flex-direction: column;
@@ -546,8 +549,8 @@
         text-align: center;
     }
     .price_cards {
-        width: calc(100% - 32px);
-        margin-top: 0px;
+        width: 100%;
+        margin: 0px auto;
         display: flex;
         flex-direction: row;
         overflow-x: scroll;
