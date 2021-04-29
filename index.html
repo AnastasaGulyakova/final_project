@@ -107,7 +107,7 @@
         <div class="cources">
             <h1 class="main_heading courses__h1">Наши направления</h1>
             <div class="course_sliders">
-                <div class="left_arrow" id="cources_left"></div>
+                <div class="left_arrow" id="cources_left" onclick="plusSlides(-1)"></div>
                 <div class="course_slider">
                     <div class="course_info_photo slider_1__photo"></div>
                     <div class="course_info_desc">
@@ -116,14 +116,46 @@
                         <a href="#" class="course_btn__link"><button class="course_btn">Записаться на занятие</button></a>
                     </div>
                 </div>
-                <div class="right_arrow" id="cources_right"></div>
+                <div class="course_slider">
+                    <div class="course_info_photo slider_2__photo"></div>
+                    <div class="course_info_desc">
+                        <h1 class="course_info_text__h1">Растяжка+силовая</h1>
+                        <p class="course_info_text__p">Hot Stretching — это тренировка в атмосфере тропиков направленная в первую очредь на развитие гибкости; способствует расслаблению мышц, выравниванию осанки, обретению грациозности и красоты. Длительность 60 минут.Занятие проходит в прогретом помещении 35-40 °C под музыку с приглушённым светом. Если вы мечтали сесть на шпагат, встать в мостик, то вам сюда. </p>
+                        <a href="#" class="course_btn__link"><button class="course_btn">Записаться на занятие</button></a>
+                    </div>
+                </div>
+                <div class="course_slider">
+                    <div class="course_info_photo slider_3__photo"></div>
+                    <div class="course_info_desc">
+                        <h1 class="course_info_text__h1">Растяжка в гамаках</h1>
+                        <p class="course_info_text__p">Гибкая спина отвечает за формирование гармоничного силуэта и идеальной осанки. Осанка опосредованно влияет на внутренние органы: если мы не горбимся, они лучше работают и не прижимаются друг к другу . Предотвращение головной боли, и нарушение мозгового кровообращения. Приходите на занятия в TOPSTRETCHING™ и сами убедитесь в этом!</p>
+                        <a href="#" class="course_btn__link"><button class="course_btn">Записаться на занятие</button></a>
+                    </div>
+                </div>
+                <div class="course_slider">
+                    <div class="course_info_photo slider_4__photo"></div>
+                    <div class="course_info_desc">
+                        <h1 class="course_info_text__h1">Йога вместе с растяжкой</h1>
+                        <p class="course_info_text__p">Hot Stretching — это тренировка в атмосфере тропиков направленная в первую очредь на развитие гибкости; способствует расслаблению мышц, выравниванию осанки, обретению грациозности и красоты. Длительность 60 минут.Занятие проходит в прогретом помещении 35-40 °C под музыку с приглушённым светом. Если вы мечтали сесть на шпагат, встать в мостик, то вам сюда.</p>
+                        <a href="#" class="course_btn__link"><button class="course_btn">Записаться на занятие</button></a>
+                    </div>
+                </div>
+                <div class="course_slider">
+                    <div class="course_info_photo slider_5__photo"></div>
+                    <div class="course_info_desc">
+                        <h1 class="course_info_text__h1">Здорове тело</h1>
+                        <p class="course_info_text__p">Гибкая спина отвечает за формирование гармоничного силуэта и идеальной осанки. Осанка опосредованно влияет на внутренние органы: если мы не горбимся, они лучше работают и не прижимаются друг к другу . Предотвращение головной боли, и нарушение мозгового кровообращения. Приходите на занятия в TOPSTRETCHING™ и сами убедитесь в этом!</p>
+                        <a href="#" class="course_btn__link"><button class="course_btn">Записаться на занятие</button></a>
+                    </div>
+                </div>
+                <div class="right_arrow" id="cources_right" onclick="plusSlides(1)"></div>
             </div>
             <div class="course_pages">
-                <div class="course_page selected_course_page" id="page1"></div>
-                <div class="course_page" id="page2"></div>
-                <div class="course_page" id="page3"></div>
-                <div class="course_page" id="page4"></div>
-                <div class="course_page" id="page5"></div>
+                <div class="course_page selected_course_page" id="page1" onclick="currentSlide(1)"></div>
+                <div class="course_page" id="page2" onclick="currentSlide(2)"></div>
+                <div class="course_page" id="page3" onclick="currentSlide(3)"></div>
+                <div class="course_page" id="page4" onclick="currentSlide(4)"></div>
+                <div class="course_page" id="page5" onclick="currentSlide(5)"></div>
             </div>
         </div>
         <div class="big_wrapper_cources_mobile">
@@ -142,7 +174,7 @@
                         <a href="#" class="course_mobile_btn__link"><button class="mobile_course_btn">Записаться на занятие</button></a>
                     </div>
                 </div>
-                <div class="cources_mobile">
+                <div class="cources_mobile last_mobile_scroll">
                     <div class="course_mobile_info_desc">
                         <h1 class="course_mobile_info_text__h1">Гибкая спина</h1>
                         <p class="course_mobile_info_text__p">Гибкая спина отвечает за формирование гармоничного силуэта и идеальной осанки. Осанка опосредованно влияет на внутренние органы: если мы не горбимся, они лучше работают и не прижимаются друг к другу . Предотвращение головной боли, и нарушение мозгового кровообращения. Приходите на занятия в TOPSTRETCHING™ и сами убедитесь в этом!</p>

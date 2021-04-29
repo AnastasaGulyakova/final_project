@@ -34,7 +34,41 @@ div_close.onclick = function() {
 //            alert( "Все неправильно!" );
 //       }
 //   }
-    
-    
 
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("course_slider");
+    var dots = document.getElementsByClassName("course_page");
+
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
+
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" selected_course_page", "");
+    }
+
+    slides[slideIndex-1].style.display = "flex";
+    dots[slideIndex-1].className += " selected_course_page";
+}
 

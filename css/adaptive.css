@@ -344,7 +344,6 @@
     }
     .big_wrapper_cources_mobile {
         display: block;
-        width: calc(100% - 32px);
         font-family: var(--default__font);
     }
     .cources_scroll_mobile {
@@ -353,7 +352,7 @@
         display: flex;
         flex-direction: row;
         overflow-x: scroll;
-        padding: 24px 16px 32px 16px;
+        padding: 24px 0 32px 0;
     }
     .cources_mobile {
         flex: 0 0 auto;
@@ -364,11 +363,14 @@
         background-color: white;
         box-shadow: 0 10px 48px rgba(151,165,193,0.2);
         border-radius: 16px;
-        margin-left: 16px;
+        margin-right: 16px;
         
     }
     .first_mobile_scroll {
-        margin-left: 0px;
+        margin-left: 16px;
+    }
+    .last_mobile_scroll {
+        margin-right: 16px;
     }
     .course_mobile_info_desc {
         margin: 24px;

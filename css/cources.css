@@ -22,7 +22,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 32px;
-    opacity: 50%;
 }
 .left_arrow:hover {
     cursor: pointer;
@@ -43,6 +42,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    transition: all 0.5s;
 }
 .course_info_photo {
     width: 416px;
@@ -52,6 +52,18 @@
 }
 .slider_1__photo {
     background-image: url('../media/cources1.png');
+}
+.slider_2__photo {
+    background-image: url('../media/cources2.png');
+}
+.slider_3__photo {
+    background-image: url('../media/cources3.png');
+}
+.slider_4__photo {
+    background-image: url('../media/cources4.png');
+}
+.slider_5__photo {
+    background-image: url('../media/cources5.png');
 }
 .course_info_desc {
     width: 672px;
